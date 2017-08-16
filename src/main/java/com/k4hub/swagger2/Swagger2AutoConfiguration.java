@@ -47,7 +47,7 @@ public class Swagger2AutoConfiguration {
         List<Predicate<RequestHandler>> basePackages = new LinkedList<>();
 
         if (swagger2Properties.getBasePackage().isEmpty()) {
-            return RequestHandlerSelectors.any();
+            basePackages.add(RequestHandlerSelectors.any());
         }
         for (String basePackage : swagger2Properties.getBasePackage()) {
             basePackages.add(RequestHandlerSelectors.basePackage(basePackage));
@@ -58,10 +58,11 @@ public class Swagger2AutoConfiguration {
 
     private Predicate<String> paths(Swagger2Properties swagger2Properties) {
 
-        if (swagger2Properties.getBasePath().isEmpty()) {
-            return PathSelectors.any();
-        }
         List<Predicate<String>> basePaths = new ArrayList<>();
+
+        if (swagger2Properties.getBasePath().isEmpty()) {
+            basePaths.add(PathSelectors.any());
+        }
         for (String basePath : swagger2Properties.getBasePath()) {
             basePaths.add(PathSelectors.ant(basePath));
         }
@@ -100,7 +101,8 @@ public class Swagger2AutoConfiguration {
     private List<Parameter> globalOperationParameters(Swagger2Properties swagger2Properties) {
         List<Parameter> globalOperationParameters = new ArrayList<>();
 
-        for (Swagger2Properties.Parameter parameter : swagger2Properties.getGlobalOperationParameter()) {
+        for (Swagger2Properties.Parameter parameter : swagger2Properties
+            .getGlobalOperationParameter()) {
             Parameter globalOperationParameter = new ParameterBuilder()
                 .name(parameter.getName())
                 .description(parameter.getDescription())
