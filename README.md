@@ -1,6 +1,12 @@
 # swagger2-spring-boot-starter
 Spring boot starter for swagger2
 
+**使用版本**
+
+> Spring Boot `1.5.6-RELEASE`
+
+> Springfox Swagger `2.7.0` 
+
 **使用说明**
 
 `注意: 暂时未上传至maven仓库,需自行install到本地仓库`
@@ -20,7 +26,6 @@ public class Swagger2DemoApplication {
         SpringApplication.run(Swagger2DemoApplication.class, args);
     }
 }
-
 ```
 
 **使用实例**
@@ -49,3 +54,5 @@ swagger2:
       paramType: header # 参数类型,可选 query, path, body, header, 详细查看swagger文档
 
 ```
+
+> 参考了didi做的[spring-boot-starter-swagger](https://github.com/dyc87112/spring-boot-starter-swagger)
