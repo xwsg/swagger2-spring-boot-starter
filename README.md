@@ -1,7 +1,7 @@
 # swagger2-spring-boot-starter
 Spring boot starter for swagger2
 
-**版本依赖**
+**使用版本**
 
 > Spring Boot `1.5.6-RELEASE`
 
