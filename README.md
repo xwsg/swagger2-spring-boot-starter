@@ -2,8 +2,10 @@
 Spring boot starter for swagger2
 
 **版本依赖**
-Spring Boot 1.5.6-RELEASE
-Springfox Swagger 2.7.0 
+
+> Spring Boot `1.5.6-RELEASE`
+
+> Springfox Swagger `2.7.0` 
 
 **使用说明**
 
