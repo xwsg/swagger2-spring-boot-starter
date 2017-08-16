@@ -1,6 +1,10 @@
 # swagger2-spring-boot-starter
 Spring boot starter for swagger2
 
+**版本依赖**
+Spring Boot 1.5.6-RELEASE
+Springfox Swagger 2.7.0 
+
 **使用说明**
 
 `注意: 暂时未上传至maven仓库,需自行install到本地仓库`
@@ -20,7 +24,6 @@ public class Swagger2DemoApplication {
         SpringApplication.run(Swagger2DemoApplication.class, args);
     }
 }
-
 ```
 
 **使用实例**
