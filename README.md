@@ -54,3 +54,5 @@ swagger2:
       paramType: header # 参数类型,可选 query, path, body, header, 详细查看swagger文档
 
 ```
+
+> 参考了didi做的[spring-boot-starter-swagger](https://github.com/dyc87112/spring-boot-starter-swagger)
