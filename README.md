@@ -9,7 +9,6 @@ Spring boot starter for swagger2
 
 **使用说明**
 
-`注意: 暂时未上传至maven仓库,需自行install到本地仓库`
 ```xml
 <dependency>
     <groupId>com.k4hub</groupId>
