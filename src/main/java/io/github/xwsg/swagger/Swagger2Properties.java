@@ -1,4 +1,4 @@
-package com.k4hub.swagger2;
+package io.github.xwsg.swagger;
 
 
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 /**
  * Swagger2 properties.
  *
- * @author Think Wong
+ * @author wsg
  */
 @Data
 @NoArgsConstructor

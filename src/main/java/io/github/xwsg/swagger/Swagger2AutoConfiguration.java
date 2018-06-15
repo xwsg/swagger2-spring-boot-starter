@@ -1,4 +1,4 @@
-package com.k4hub.swagger2;
+package io.github.xwsg.swagger;
 
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
@@ -23,7 +23,7 @@ import springfox.documentation.spring.web.plugins.Docket;
 /**
  * Swagger2 auto configuration.
  *
- * @author Think Wong
+ * @author wsg
  */
 @Configuration
 @EnableConfigurationProperties(Swagger2Properties.class)

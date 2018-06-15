@@ -39,8 +39,8 @@ swagger2:
     version: 1.0 # API版本
     contact: # 联系人信息
       email: xtremaplux@gmail.com # 联系人邮箱
-      name: xhusky # 联系人姓名
-      url: https://github.com/xhusky # 联系人URL
+      name: xwsg # 联系人姓名
+      url: https://github.com/xwsg # 联系人URL
   base-package: com.github, com.oschina # swagger解析包路径
   base-path: /v1/**, /v3/**, /v4/** # swagger解析URL规则(ANT规则)
   exclude-path: /error/** # swagger排除解析URL规则(ANT规则)

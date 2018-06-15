@@ -1,4 +1,4 @@
-package com.k4hub.swagger2;
+package io.github.xwsg.swagger;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -12,7 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * Swagger2 tools annotation.
  *
- * @author Think Wong
+ * @author wsg
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.TYPE})
