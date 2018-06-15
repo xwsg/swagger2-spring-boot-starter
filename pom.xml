@@ -6,7 +6,7 @@
 
     <groupId>io.github.xwsg</groupId>
     <artifactId>swagger2-spring-boot-starter</artifactId>
-    <version>1.1-RELEASE</version>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
     <name>swagger2-spring-boot-starter</name>
     <description>Spring boot starter for swagger2</description>
