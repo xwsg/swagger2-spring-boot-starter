@@ -5,17 +5,25 @@ Spring boot starter for swagger2
 
 > Spring Boot `1.5.6-RELEASE`
 
-> Springfox Swagger `2.7.0` 
+> Springfox Swagger `2.8.0` 
 
 **使用说明**
 
 ```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
 <dependency>
-    <groupId>com.k4hub</groupId>
+    <groupId>com.github.xwsg</groupId>
     <artifactId>swagger2-spring-boot-starter</artifactId>
-    <version>1.0-RELEASE</version>
+    <version>0.1.0</version>
 </dependency>
 ```
+
 ```java
 @EnableSwagger2Tools // <--
 @SpringBootApplication
