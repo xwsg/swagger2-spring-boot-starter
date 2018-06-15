@@ -1,5 +1,5 @@
 # swagger2-spring-boot-starter
-Spring boot starter for swagger2
+[![](https://jitpack.io/v/xwsg/swagger2-spring-boot-starter.svg)](https://jitpack.io/#xwsg/swagger2-spring-boot-starter)
 
 **使用版本**
 
